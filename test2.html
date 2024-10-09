@@ -1,0 +1,410 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>肾病百科</title>	
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }>
+</script>
+<meta name="keywords" content="Medicus Responsive web template, Bootstrap Web Templates, Flat Web Templates, AndriodCompatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<link href='#css?family=Raleway' rel='stylesheet' type='text/css'>
+<script src="js/jquery.min.js"> </script>
+<!--fonts-->
+<link href='#css?family=Poiret+One' rel='stylesheet' type='text/css'>
+<link href='#css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+<!--/fonts-->
+<link rel="stylesheet" href="css/responsiveslides.css">	
+		<script src="js/responsiveslides.min.js"></script>
+		  <script>
+		    // You can also use "$(window).load(function() {"
+			    $(function () {
+			
+			      // Slideshow 1
+			      $("#slider1").responsiveSlides({
+			        maxwidth: 1600,
+			        speed: 600
+			      });
+			});
+		  </script>
+		  		 <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<!-- js -->
+		 <script src="js/bootstrap.js"></script>
+	<!-- js -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+
+	</head>
+	<body>
+<!--start-header-->
+<div class="header">
+	 <!--start-container-->
+	 <div class="container">
+				<!--start-top-header-->
+					<div class="main-header">
+
+				<div class="clearfix"> </div>
+				<div class="top-header">
+										<div class="logo">
+						<a href="index.html"><img src="images/logo2.png" title="logo" /></a>
+					</div>
+					<div class="top-header-right">
+										<ul class="support">
+											<li><span><i class="tele-in"> </i>+ 12345678910</span></li>
+					<li><a href="mailto:info@example.com"><i> </i>gdut@edu.cn</a></li>
+				</ul>
+						<div class="top-header-contact-account">
+							
+							<div class="social">
+								<ul>
+									<li><a href="#"><i class="facebook"> </i></a></li>
+									<li><a href="#"><i class="twitter"> </i></a></li>
+									<li><a href="#"><i class="dribble"> </i></a></li>	
+									<li><a href="#"><i class="linkdin"> </i></a></li>	
+									<li><a href="#"><i class="google"> </i></a></li>										
+								</ul>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<!--End-top-header-->
+				<!--start-main-header-->
+<div class="navigation">
+	<div class="container">
+		<nav class="navbar navbar-default">
+						<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"> </span>
+				<span class="icon-bar"> </span>
+				<span class="icon-bar"> </span>
+			  </button>
+			</div>
+
+			<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">主页 <span class="sr-only">(current)</span></a></li>
+				<li><a href="about.html">病因和症状</a></li>
+				<li><a href="services.html">预防和治疗</a></li>
+				<li><a href="blog.html">慢肾预后</a></li>
+				<li><a href="projects.html">慢肾小谣言</a></li>
+				<li><a href="contact.html">联系我们</a></li>
+			  </ul>
+				<div class="search">
+					<form>
+						<input type="search" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}" required="">
+						<input type="submit" value=" ">
+					</form>
+				</div>
+			  <div class="clearfix"> </div>
+			</div><!-- /.navbar-collapse -->
+		</nav>
+	</div>
+</div>
+					<div class="clearfix"> </div>
+					</div>
+			  <!-- script-for-menu -->
+		 <script>
+				$("span.menu").click(function(){
+					$(".top-nav ul").slideToggle("slow" , function(){
+					});
+				});
+		 </script>
+		 <!-- script-for-menu -->	 	
+	 </div>
+	<!----End-main-header----->
+</div>
+<div class="clearfix"> </div>
+<!---End-header--->
+  <title>慢性肾病风险计算器</title>
+  <style>
+    /* 在这里添加你的 CSS 样式 */
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      text-align: center;
+    }
+
+    form {
+      max-width: 400px;
+      margin: auto;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 12px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    #resultContainer {
+      font-size: 18px;
+      margin-top: 20px;
+      text-align: center; /* 使结果文字居中 */
+    }
+
+	.error-message {
+      color: red;
+      font-size: 14px;
+    }
+
+	.tooltip-container {
+      position: relative;
+      display: inline-block;
+      margin-left: 5px; /* 调整间距 */
+    }
+
+    .tooltip-icon {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      background: url('images/问号.png') no-repeat center center; /* 替换为红色问号图标 */
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .tooltip-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 200px; /* 调整提示框宽度 */
+      padding: 10px;
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      z-index: 1;
+    }
+
+    .tooltip-container:hover .tooltip-content {
+      display: block;
+    }
+
+  
+  </style>
+</head>
+<body>
+
+    
+
+	
+	  <form id="riskCalculator">
+		<label for="age">年龄（岁）：</label>
+		<input type="number" id="age" name="age" required>
+		<span id="ageError" class="error-message"></span>
+		
+		</select>
+	
+		<label for="gender">性别：</label>
+		<select id="gender" name="gender" required>
+		  <option value="male">男性</option>
+		  <option value="female">女性</option>
+		</select>
+	
+		<label for="region">地区：</label>
+		<select id="region" name="region" required>
+		  <option value="northAmerica">北美洲</option>
+		  <option value="nonNorthAmerica">非北美洲</option>
+		</select>
+	
+		<label for="gfr">GFR肾小球过滤率（ML/Min/1.73M2）：
+			<div class="tooltip-container">
+			  <div class="tooltip-icon"></div>
+			  <div class="tooltip-content">
+				肾小球滤过率（GFR）是告诉您肾脏清洁血液的情况以及确定您的肾脏疾病阶段的最佳测试。GFR是根据您的血肌酐测试结果、您的年龄和性别计算得出的。GFR越低，肾功能越差。一旦您的GFR低于30，您将需要开始去看肾病医生（肾病专家），而低于15，您的医生将开始与您讨论肾衰竭的治疗方法。
+			  </div>
+			</div>
+			<input type="number" id="gfr" name="gfr" required>
+			<select id="gfrUnit" name="gfrUnit">
+			  <option value="ml/min/1.73m2">ml/min/1.73m2</option>
+			  <!-- 添加其他选项 -->
+			</select>
+		  </label>
+		  <span id="gfrError" class="error-message"></span>
+	  
+		  <label for="albumin">尿白蛋白--肌酐比值：
+			<div class="tooltip-container">
+			  <div class="tooltip-icon"></div>
+			  <div class="tooltip-content">
+				健康的肾脏具有过滤器，可以去除废物，但保留大细胞，例如红细胞和蛋白质。当肾脏开始衰竭时，这些大细胞开始渗漏到尿液中。尿液中蛋白质过多是肾脏受损的征兆，并且可能会给肾脏留下疤痕。白蛋白和肌酐是两种蛋白质。尿液中白蛋白和肌酐的比率可以告诉您的医生你的肾脏工作情况如何。正常水平低于30毫克/克。
+			  </div>
+			</div>
+			<input type="number" id="albumin" name="albumin" required>
+			<select id="albuminUnit" name="albuminUnit">
+			  <option value="mg/g">mg/g</option>
+			  <option value="mg/mmol">mg/mmol</option>
+			  <!-- 添加其他选项 -->
+			</select>
+		  </label>
+		  <span id="albuminError" class="error-message"></span>
+
+	
+		<button type="button" onclick="calculateRisk()">计算风险</button>
+	  </form>
+	
+	  <div id="resultContainer"></div>
+	
+	  <script>
+		
+		function calculateRisk() {
+      // 获取表单数据
+      const ageInput = document.getElementById('age');
+      const age = parseFloat(ageInput.value);
+      const ageError = document.getElementById('ageError');
+      const gender = document.getElementById('gender').value;
+      const gfr = parseFloat(document.getElementById('gfr').value);
+      const albumin = parseFloat(document.getElementById('albumin').value);
+
+      // 清除之前的错误信息
+      ageError.textContent = '';
+
+      // 验证年龄是否在0-100之间
+      if (age < 0 || age > 100 || isNaN(age)) {
+        ageError.textContent = '年龄需在0-100之间';
+        return;
+      }
+
+      // 验证GFR和尿白蛋白是否为负数
+      if (gfr < 0 || isNaN(gfr) || albumin < 0 || isNaN(albumin)) {
+        alert('输入的值不能为负数');
+        return;
+      }
+
+	  //尿白蛋白：肌酐比值转换单位
+		  // 获取用户输入的尿白蛋白-肌酐比值
+		const acr = parseFloat(document.getElementById('albumin').value);
+		const acrUnit = document.getElementById('albuminUnit').value;
+
+		// 根据单位进行转换
+		let acr_mg;
+		if (acrUnit === 'mgPerMmol') {
+  			// 如果单位是 mg/mmol，进行转换
+  			acr_mg = acr * 8.84;
+		} else {
+  			// 否则单位就是 mg/g，不用转换
+  			acr_mg = acr;
+		}
+
+		// 在这里可以使用 acr_mg 进行后续的计算
+
+      // 模拟计算逻辑
+      const male = gender === 'male' ? 1 : 0;
+      const kfre4v2y = 1 - Math.pow(0.9832, Math.exp(-0.2201 * (age / 10 - 7.036) + 0.2467 * (male - 0.5642) - 0.5567 * (gfr / 5 - 7.222) + 0.4510 * (Math.log(albumin * 8.84) - 5.137)));
+      const kfre4v5y = 1 - Math.pow(0.9365, Math.exp(-0.2201 * (age / 10 - 7.036) + 0.2467 * (male - 0.5642) - 0.5567 * (gfr / 5 - 7.222) + 0.4510 * (Math.log(albumin * 8.84) - 5.137)));
+
+      // 将风险转为百分比
+      const riskData = {
+        kfre4v2y: kfre4v2y * 100,
+        kfre4v5y: kfre4v5y * 100
+      };
+
+      // 在这里处理风险数据，例如显示在页面上或进行其他操作
+      const resultContainer = document.getElementById('resultContainer');
+      resultContainer.innerHTML = `你2年内慢性肾病的风险为：${riskData.kfre4v2y.toFixed(2)}%， 你5年内慢性肾病的风险为：${riskData.kfre4v5y.toFixed(2)}%`;
+    }
+
+	  
+
+ 
+		  
+	
+		
+	
+
+       
+
+
+  </script>
+<div class="footer">
+	<div class="container">				 	
+		<div class="col-md-3 ftr_navi ftr">
+			<h3>导航栏</h3>
+			<ul>
+				<li><a href="index.html">主页</a></li>
+				<li><a href="about.html">病因和症状</a></li>
+				<li><a href="services.html">预防和治疗</a></li>						
+				<li><a href="blog.html">慢肾预后</a></li>
+				<li><a href="projects.html">慢肾小谣言</a></li>
+				<li><a href="contact.html">联系我们</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3 ftr_navi ftr">
+			<h3>饮食保健</h3>
+			<ul>
+				<li><a href="#">1.限制蛋白质饮食</a></li>
+				<li><a href="#">2.高热量摄入</a></li>
+				<li><a href="#">3.高维生素摄入</a></li>						
+			   
+			</ul>
+		</div>
+		<div class="col-md-3 get_in_touch ftr">
+			 <h3>联系我们</h3>
+			 <p>广东工业大学管理学院</p>
+			 <p>广东广州</p>
+			 <p>+12345678910</p>
+			 <a href="mailto:mail@mlampah.com">gdut@edu.cn</a>
+		</div>
+		<div class="col-md-3 ftr-logo">
+		   <a href="index.html"><img src="images/f-logo.png" alt=""/></a>
+		   <p>Copyright &copy; 2023.Company name All rights reserved.</a></p>
+		</div>
+	   <div class="clearfix"></div>
+	</div>
+ </div>
+<!---->
+		 <!---End-container---->
+		 <!---->
+<script type="text/javascript">
+		$(document).ready(function() {
+				/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+				*/
+		$().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!----> 
+	  
+</body>
+</html>
